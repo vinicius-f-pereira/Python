@@ -18,3 +18,7 @@ print(names)
 names.pop(2)
 
 print(names)
+
+# len to count list elements
+x = len(names)
+print(x)
