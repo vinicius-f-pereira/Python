@@ -1,7 +1,7 @@
 # import python debugger to debug
-#import pdb
+# import pdb
 # set trace to start debugging
-#pdb.set_trace()
+# pdb.set_trace()
 # create a function with 'Def' + function_name(parameters) to swap elements
 def swap(seq, i):
     aux = seq[i]
@@ -22,6 +22,7 @@ while sort:
     for i in range(len(seq) - 1):
         if seq[i] > seq[i + 1]:
             swap(seq, i)
+            print(seq)
             sort = 1
 
 
